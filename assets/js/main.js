@@ -122,6 +122,28 @@ let change5 =someTexta.slice(4,16)
 document.write(change4+change5+change3+"<br>")
 
 
+let change4a =someTexta.slice(0,4)
+
+
+let change5a =someTexta.slice(4,16).toUpperCase()
+
+let change3a =someTexta.slice(22).replace('codingschool','School')
+
+
+document.write(change4a+change5a+change3a+"<br>")
+
+
+//Lev1_9_js-einführung_concat
+
+var text1 = "Sam is going to codingschool"
+
+var text1a= "and to the movie theater"
+
+let change6a=text1.replace('codingschool, School')
+
+document.write(change6a.concat(text1a)+"<br>")
+
+
 
 
 
